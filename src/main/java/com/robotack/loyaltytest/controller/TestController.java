@@ -9,6 +9,7 @@ public class TestController
 	@GetMapping("")
 	public String test()
 	{
+		System.out.println("Test");
 		return "test";
 	}
 }
